@@ -1,5 +1,5 @@
 /* =========================== google font import ============================ */
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* =========================== google font import ============================ */
 
 /* =========================== universal css reset ============================ */
@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Azeret Mono", monospace, sans-serif;
+    font-family: "Azeret Mono", monospace;
+    scroll-behavior: smooth;
 }
 /* =========================== universal css reset ============================ */
 
@@ -76,7 +77,16 @@
     font-weight: 600;
     color: #0D1321;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
+
+.header-nav .header-content .header-btn:hover{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* =========================== hero section start  */
 
 .hero-section{
     width: 100%;
@@ -118,26 +128,40 @@
 }
 
 .hero-section .hero-container .btn-box .hero-btn{
+    display: inline-block;
     font-size: 20px;
     font-weight: 600;
     color: #FFFFFF;
-    padding: 21px 24px;
+    padding: 21px 30px;
     background-color: #0D1321;
     border: none;
     border-radius: 8px;
+    border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
+
+.hero-section .hero-container .btn-box .hero-btn:hover{
+    background: none;
+    color: #0D1321;
+}
+
+/* =========================== hero section start  */
+
 /* =========================== header section end ============================ */
 
 /* =========================== main section start ============================ */
+
+/* =========================== web-development section start */
 #web-development{
     width: 100%;
-    height: 160vh;
+    height: 165vh;
 }
 
 .web-dev-content{
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 80px 97px;
     margin-top: 74px;
     background-color: rgba(13, 19, 33, 0.02);
@@ -146,7 +170,7 @@
 
 .web-dev-content .web-dev-heading{
     width: 1220px;
-    height: 115;
+    height: 115px;
     text-align: center;
     margin: 0 auto 48px;
 }
@@ -157,12 +181,11 @@
 
 .web-dev-content .web-dev-box{
     width: 100%;
-    height: auto;
+    height: 350px;
     padding: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap: 98px; */
     border-radius: 16px;
     margin-bottom: 32px;
 }
@@ -222,20 +245,24 @@
     color:#0D1321;
 }
 
+/* =========================== web-development section end */
+
+/* =========================== my-inspiration section start */
+
 #my-inspiration{
     width: 100%;
-    height: 85vh;
+    height: 95vh;
 }
 
 .my-ins-content{
     width: 100%;
-    height: auto;
+    height: 800px;
 }
 
 .my-ins-content .my-ins-heading{
     width: 952px;
     text-align: center;
-    margin: 0 auto 48px;
+    margin: 0px auto 48px;
 }
 
 .my-ins-content .my-ins-heading .my-ins-title{
@@ -243,8 +270,8 @@
 }
 
 .my-ins-content .my-ins-video-container{
-    width: 1076px;
-    height: 550px;
+    width: 100%;
+    height: 650px;
     margin: 0 auto;
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -254,11 +281,16 @@
 .my-ins-content .my-ins-video-container .video-frame{
     width: 100%;
     height: 100%;
+    border-radius: 16px;
 }
+
+/* =========================== my-inspiration section end */
+
+/* =========================== my-current-target section start */
 
 #my-current-target{
     width: 100%;
-    height: 550px;
+    height: 620px;
 }
 
 .my-current-target-content{
@@ -285,8 +317,8 @@
 }
 
 .my-current-target-content .my-cur-tar-card-box .card-box{
-    width: 400px;
-    height: auto;
+    width: 500px;
+    height: 355px;
     padding: 40px;
     border-radius: 16px;
 }
@@ -326,9 +358,13 @@
     border-bottom: 2px solid #0D1321;
 }
 
+/* =========================== my-current-target section end */
+
+/* =========================== my-next-target section start */
+
 #my-next-target{
     width: 100%;
-    height: 98vh;
+    height: 120vh;
 }
 
 .my-next-target-content{
@@ -356,6 +392,7 @@
 
 .my-next-target-content .my-nx-tar-card-box .nx-card-box{
     width: 100%;
+    height: 300px;
     padding: 40px;
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -390,9 +427,14 @@
     border-bottom: 2px solid #0D1321;
 }
 
+/* =========================== my-next-target section end */
+
+/* =========================== support section section start */
+
 #support-section{
     width: 100%;
-    height: 55vh;
+    height: 60vh;
+    padding-top: 30px;
 }
 
 .support-content{
@@ -415,7 +457,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 24px;
+    gap: 44px;
 }
 
 .support-content .overlay .sup-text-box{
@@ -475,6 +517,8 @@
     color: #0D1321;
     cursor: pointer;
 }
+
+/* =========================== support section section end */
 
 /* =========================== main section end ============================ */
 
