@@ -1,0 +1,32 @@
+/* =========================== google font import ============================ */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* =========================== google font import ============================ */
+
+/* =========================== universal css reset ============================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace, sans-serif;
+}
+/* =========================== universal css reset ============================ */
+
+/* =========================== css reusable selector ============================ */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* =========================== css reusable selector ============================ */
+
+/* =========================== header section start ============================ */
+
+
+
+/* =========================== header section end ============================ */
+
+/* =========================== main section start ============================ */
+
+/* =========================== main section end ============================ */
+
+/* =========================== footer section start ============================ */
+/* =========================== footer section end ============================ */
