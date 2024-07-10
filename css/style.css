@@ -255,6 +255,76 @@
     width: 100%;
     height: 100%;
 }
+
+#my-current-target{
+    width: 100%;
+    height: 550px;
+}
+
+.my-current-target-content{
+    width: 100%;
+    height: 100%;
+}
+
+.my-current-target-content .my-cur-tar-heading{
+    width: 1150px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.my-current-target-content .my-cur-tar-heading .my-cur-tar-title{
+    margin-bottom: 24px;
+}
+
+.my-current-target-content .my-cur-tar-card-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.my-current-target-content .my-cur-tar-card-box .card-box{
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.my-current-target-content .my-cur-tar-card-box .html-box{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.my-current-target-content .my-cur-tar-card-box .css-box{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.my-current-target-content .my-cur-tar-card-box .js-box{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.my-current-target-content .my-cur-tar-card-box .card-box .icon{
+    margin-bottom: 24px;
+}
+
+.my-current-target-content .my-cur-tar-card-box .card-box .card-box-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 8px;
+}
+
+.my-current-target-content .my-cur-tar-card-box .card-box .card-box-para{
+    margin-bottom: 24px;
+}
+
+.my-current-target-content .my-cur-tar-card-box .card-box .card-box-link{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+    text-decoration: none;
+    border-bottom: 2px solid #0D1321;
+}
 /* =========================== main section end ============================ */
 
 /* =========================== footer section start ============================ */
