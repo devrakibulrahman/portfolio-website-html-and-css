@@ -328,7 +328,7 @@
 
 #my-next-target{
     width: 100%;
-    height: 95vh;
+    height: 98vh;
 }
 
 .my-next-target-content{
@@ -390,8 +390,96 @@
     border-bottom: 2px solid #0D1321;
 }
 
+#support-section{
+    width: 100%;
+    height: 55vh;
+}
+
+.support-content{
+    width: 100%;
+    height: 450px;
+    border-radius: 16px;
+    background-image: url("../assets/bg-img/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.support-content .overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 64px 48px;
+    background-color: rgba(0, 0, 0, 0.473);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.support-content .overlay .sup-text-box{
+    width: 770px;
+    height: 104px;
+    text-align: center;
+}
+
+.support-content .overlay .sup-text-box .sup-text-title{
+    font-size: 32px;
+    font-weight: 700;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+
+.support-content .overlay .sup-text-box .sup-text-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.support-content .overlay .in-sub-box{
+    width: 684px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-content .overlay .in-sub-box .input-field{
+    width: 508px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 19px 20px;
+    margin-right: 16px;
+}
+
+.support-content .overlay .in-sub-box .input-field::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+}
+
+.support-content .overlay .in-sub-box .sub-btn{
+    width: 149.5px;
+    height: 100%;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    cursor: pointer;
+}
 
 /* =========================== main section end ============================ */
 
 /* =========================== footer section start ============================ */
+
+
+
 /* =========================== footer section end ============================ */
